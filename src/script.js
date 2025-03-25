@@ -24,7 +24,7 @@ addEventListener("submit", (event) => {
 
   console.log(`email submitted: ${email}`);
   console.log(`password submitted: ${password}`);
-  
+
   for (const element of usersTable) {
     if (email === element.username && password === element.password) {
       renderSuccess();
